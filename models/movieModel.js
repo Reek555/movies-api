@@ -2,8 +2,6 @@ const mongoose = require("mongoose");
 require("dotenv").config()
 
 
-//mongoose.connect('mongodb://127.0.0.1:27017/test');
-//mongoose.connect("mongodb+srv://rickswass:9bpClcBDMyAqHbVp@cluster0.1zeidif.mongodb.net/test")
 mongoose.connect(process.env.DB);
 
 
